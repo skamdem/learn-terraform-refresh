@@ -1,5 +1,5 @@
 terraform {
-  /* Uncomment this block to use Terraform Cloud for this tutorial
+  /* Uncomment this block to use Terraform Cloud
   cloud {
       organization = "organization-name"
       workspaces {
@@ -15,5 +15,5 @@ terraform {
     }
   }
 
-  required_version = ">= 1.1"
+  required_version = ">= 1.5.0"
 }
